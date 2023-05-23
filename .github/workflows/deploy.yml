@@ -7,7 +7,7 @@ on:
 
 jobs:
   publish-docker-hub:
-    runs-on: ubuntu:latest
+    runs-on: ubuntu-latest
     steps:
 
     - name: Login to Dockerhub
