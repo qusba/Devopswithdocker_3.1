@@ -4,9 +4,8 @@ services:
   express-app:
     image: qusba/express-app
     ports:
-      - 127.0.0.1:8080:8080
+      - 8080:8080
     container_name: express
-    command: curl http://localhost:8080
 
   watchtower:
     image: containrrr/watchtower
